@@ -1,0 +1,12 @@
+public enum Days{
+
+	SUNDATY,
+	MONDAY,
+	TUESDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY;
+}
+
+	
