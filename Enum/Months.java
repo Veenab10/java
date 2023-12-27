@@ -1,17 +1,24 @@
 public enum Months{
 
-	JANUARY,
-	FEBRUARY,
-	MARCH,
-	APRIL,
-	MAY,
-	JUNE,
-	JULY,
-	AUGUST,
-	SEPTEMBER,
-	OCTOBER,
-	NOVEMBER,
-	DECEMBER;
+	JANUARY("january"),
+	FEBRUARY("febuary"),
+	MARCH("march"),
+	APRIL("april"),
+	MAY("may"),
+	JUNE("june"),
+	JULY("july"),
+	AUGUST("august"),
+	SEPTEMBER("september"),
+	OCTOBER("october"),
+	NOVEMBER("november"),
+	DECEMBER("december");
+
+	String value;
+
+	Months(String value)
+	{
+		this.value=value;
+	}
 }
 	
 

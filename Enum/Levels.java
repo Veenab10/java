@@ -1,6 +1,13 @@
 public enum Levels{
 
-	LOW,
-	MEDIUM,
-	HIGH;
+	LOW("low"),
+	MEDIUM("medium"),
+	HIGH("high");
+
+	String value;
+
+	Levels(String value)
+	{
+		this.value=value;
+	}
 }

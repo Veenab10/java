@@ -1,11 +1,18 @@
 public enum BranchNames{
 
-	BCA,
-	BSC,
-	BCOM,
-	BA,
-	MCA,
-	MSC,
-	MBA,
-	MA;
+	BCA("bca"),
+	BSC("bsc"),
+	BCOM("bcom"),
+	BA("ba"),
+	MCA("mca"),
+	MSC("msc"),
+	MBA("mba"),
+	MA("ma");
+
+	String value;
+
+	BranchNames(String value)
+	{
+		this.value=value;
+	}
 }

@@ -1,11 +1,18 @@
 public enum Planets{
 
-	MERCURY,
-	VENUS,
-	EARTH,
-	JUPITER,
-	SATURN,
-	URANUS,
-	NEPTUNE;
+	MERCURY("Mercury"),
+	VENUS("venus"),
+	EARTH("earth"),
+	JUPITER("jupiter"),
+	SATURN("saturn"),
+	URANUS("uranus"),
+	NEPTUNE("nepture");
+
+	String value;
+
+	Planets(String value)
+	{
+		this.value=value;
+	}
 }
 		

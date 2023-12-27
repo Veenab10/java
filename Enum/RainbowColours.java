@@ -5,7 +5,7 @@ public enum RainbowColours{
 	YELLOW("yellow"),
 	RED("red"),
 	GREEN("green"),
-	ORANGE(orange"),
+	ORANGE("orange"),
 	INDIGO("indigo"),
 	VIOLET("violet");
 	
