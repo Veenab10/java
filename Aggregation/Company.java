@@ -2,7 +2,7 @@ public class Company
   {
     String location;
     String type;
-    Employees employees;
+    Employees employees	;
     Manager manager;
 
     void createJobs()

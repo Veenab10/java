@@ -6,7 +6,7 @@ public class CompanyStart{
         Company company = new Company("Banglore","private",employee,manager);
         company.planning();
         company.employees.communication();
-        company.manager.planning();
+        company.manager.leading();
         System.out.println("------------------------");
 
         Accounting accounting=new Accounting(20000,"employee");
