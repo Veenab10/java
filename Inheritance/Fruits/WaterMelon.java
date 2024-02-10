@@ -6,3 +6,5 @@ void consume()
 {
 	System.out.println("It consumes water");
 }
+
+}

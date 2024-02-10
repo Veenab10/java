@@ -1,0 +1,376 @@
+1.Java:
+. java is purely object oriented programming language.
+.java simple language
+.java is paltform independent language.
+. java is secured language.
+.java is dynamic language.
+. it is multithreaded language.
+
+javac
+. it is java compiler.
+. it is used by jvm to convert from byte code into machine understanding language.
+. in javac code in converting at a time in low language.
+--------------------------------------------------------------------------------------------------------------
+2. jdk
+.jdk means java develpoment kit
+. jdk contains jre and tools.
+
+JRE
+.jre --java runtime enviroment.
+. jre contains jvm and tools.
+
+JVM
+. jvm -- java virtual machine.
+. jvm is excute java program.
+. jvm is use interperter to excute code line by line.
+. initially jvm load java programs.
+
+--------------------------------------------------------------------------------------------------------------
+
+3. .java file
+.javafile is contains java program which is return in high level language.
+.java(it is indicates it is java programs)
+
+.class file
+.class file contains byte code(which is understand machine)
+using .class file  we can run java program any where and anytime.
+because of .class file  only java is platform independt we can run on any os.
+
+--------------------------------------------------------------------------------------------------------------
+
+4. Java IDE's
+--visual Studio
+--Eclipes
+--Notepad
+--Notepad ++\
+--intelliJ
+
+--------------------------------------------------------------------------------------------------------------
+
+5. Variable -- it is container which stores values
+type of variables
+1. local variable:
+ local variables are declare within the block of code(inside the method)which is belongs that particular block only.
+Example:
+public void display()
+{
+	int a, b;(local varibles)
+}
+
+2. instance variable:
+instance variable also called non-static variables.
+ which are declared within the class.
+ we can access anywhere we want.
+when we want values which  can  be change for some instances then we use instance variables.
+
+
+Example:
+public class Laptop{
+
+String brandName;(instance variable)
+}
+
+3. static variable:
+static varible also called class variable.
+which are declared within the class.
+when we want values which  can not be change for some instances then we use static variables.
+
+Example:
+public class Institute{
+
+static instituteName="Xworkz";
+}
+
+
+
+4. parameters
+paramter variable declare within the pair of parenthesis.
+Example:
+public void sum(int a , int b)--parameter
+{
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+
+6 java is Object -oriented programming 
+java is purely based on object.
+by using object,  we can access class members.
+
+--------------------------------------------------------------------------------------------------------------
+
+7.No output bcz --there is no println statement
+and it also have no error
+
+--------------------------------------------------------------------------------------------------------------
+
+8. Data type-- It is type of data which stores values.
+Types of data type:
+1. primitive data type
+--it is pre-defined data type
+-- the size of primitive data type is fixed.
+-- it starts with small letter.
+int --4bytes
+float--4bytes
+long--8bytes
+double--8bytes
+byte--1bit
+short--2 byte
+boolean--1byte
+char--1 byte
+
+ Example:
+public class Ball{
+
+int a=10;
+folat=3.14f;
+long=263218309821l;
+double=232.82709012;
+byte=1;
+short=24;
+boolean="true";
+char='a';
+
+}
+2. non primitive data type
+--it is user defined data type
+--size of non-primitive data type is fixed.
+--it starts with upperCase
+
+example: String, Array, Class, Interface.
+
+public class Bird{
+
+String birdName;
+int noOfBirds[]={1,2,3,4,5,};
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+
+9. Dot operator
+dot operator  is opertor which is use access class members of the class(varible or methods).
+Example:
+public class Person{
+String personName;
+public void run()
+{
+}
+}
+Person person=new Person();
+person.personName;
+person.run();
+
+--------------------------------------------------------------------------------------------------------------
+
+
+10 Java Features
+1. simple language
+2. platform indepedent
+3. Robust and secure
+4.Multithreaded
+5. object-oriented
+6. Dynamic
+
+--------------------------------------------------------------------------------------------------------------
+
+11. Array
+array is non-primitive data type.
+array contains homogenous elements.
+array starts with zeroth index, ends with n-1,
+array represented by[].
+
+
+example: int naturalNumber[]={1,2,3,4,5,6,7,8,9,10};
+
+--------------------------------------------------------------------------------------------------------------
+
+12. class and object
+Class- class is blue print of an object.
+	class containes varibles and methods.
+	Class is a class which in lang package.
+Example: Array, String, Exception.Thread are class
+
+Object-- object is real world entity.
+	 object is instance of class.
+	 object contains state and behaviour
+	Object is class which in lang package.
+Example: ball, phone, bat, laptop, water.. ect are objects.
+
+--------------------------------------------------------------------------------------------------------------
+
+13. Keywords-- keywords are names which are pre-defined words.
+1.Keywords:
+2.int
+3.float
+4.char
+5.boolean
+6.long
+7.duoble
+8.byte
+9.short
+10.public
+11.private
+12.protected
+13.instanceof
+14.extend
+15.for
+16.if
+17.switch
+18.do
+19.while
+20.default
+21.class
+22.package
+23.import
+
+--------------------------------------------------------------------------------------------------------------
+
+
+14. Constructor
+--constuctor is method which is called whenever object os created.
+--- constuctor is special method which is used initialize values for variables. 
+--constructor will invoke in two ways:
+	. chaining
+	. using new keyord
+-- constructor name should be same as class name.
+--constructor have no explicit return types
+
+Types of constructor:
+1. default constrctor 
+-- by default jvm will create default constructor.
+
+
+2. Parameter constrctor
+-- while declaring constrctor we can pass parameters.
+public class Person{
+ 	Person(String name)
+	{
+	}
+}
+
+
+3. No parameter constrctor
+-- this constrctor have no parameters.
+
+public class Person{
+ 	Person()
+	{
+	}
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+15.main method is static  because 
+for non static method we need instance to access, by creating  instance only we can methods from class.
+but static method we need we don't need instance, by using classname only we access static method.
+main is static which is in default package.
+initially we don't no class name for creating instance, bcz of that only main method is static
+
+Types of methods:
+1.No parameter method
+Example:
+public class Compuer{
+
+	public void excute()--no parameter method
+	{
+	}
+}
+2. paramterized method
+public class Compuer{
+
+	public void excute(int a)-- parameterized method
+	{
+	}
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+
+16.   length of the array [12,3,2,45,6,7,6]
+public class Calculator{
+
+	int arr[]={12,3,2,45,6,7,8};
+	System.out.println("length of an array is:" +arr.len());
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+17. Method , method Overloading and methodoverriding
+Method: Method  is a block of code which is excutes whever it is called.
+	method should contain return type and pair of parenthesis.
+	for invoking method we use method name.
+
+example:
+
+public class Pen{
+
+	public void write()
+	{
+		System.out.println("Write method ");
+	}
+}
+
+here, write is a method which is in pen class. 
+	
+
+Method Overloading:
+Having the same method name but different in parameter is called method overloading.
+
+There are three ways to achieve method overloading:
+1. chaining the type of parameters.
+2. chaining the number of parameters.
+3. chianing the order of parameters.
+
+example:
+
+public class Book{
+
+	public void sum(int a, int b)
+	{
+	}
+	public void sum(int a, float b)--chaining the type of parameters.
+	{
+	}
+	public void sum(float b, int a)--chianing the order of parameters.
+	{
+	}
+	public void sum(int a,int b, int c)--chaining the number of parameters.
+	{
+	}
+}
+
+. methodOverriding:
+--method overriding means changing the implementation.
+example :
+
+public class Shoe{
+
+	public void wear()
+	{
+		System.out.println("wear method running in Shoe class");
+	}
+}
+public class RunningShoe extends Shoe{
+	
+	public void wear()-- this is override method
+	{
+		System.out.println("wear method running in RunningShoe class");
+	}
+}
+
+in the above example parent class Shoe have wear method it have some implementation, then we have extend that method into subclass RunningShoe , later we change the change the method implementation in subclass or RunningShoe this is called overriding
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
